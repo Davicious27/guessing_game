@@ -54,7 +54,7 @@ sleep(3)
 i = 5
 
 while i > 0 :
-    user_guess = int(input("Enter your guess " + str(i) + " attempts remaining: "))
+    user_guess = float(input("Enter your guess " + str(i) + " attempts remaining: "))
     absolute_diff = abs(rand_number - user_guess)
     if user_guess == rand_number:
         print("You won!!! The number was " + str(user_guess) + " !!!")
